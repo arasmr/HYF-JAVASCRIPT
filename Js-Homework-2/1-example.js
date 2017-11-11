@@ -2,9 +2,9 @@
 // myFunction(x,y,z)=2x+3y+5z
 
 function add( x, y, z ) {
-    return x + y + z;
+    return 2*x + 3*y + 5*z;
 }
 
-console.log(add(2, 3, 5)); // 10
+console.log(add(2, 3, 5)); // 38
 
-console.log(add(5, 10, 15)); // 30
+console.log(add(5, 10, 15)); // 115
