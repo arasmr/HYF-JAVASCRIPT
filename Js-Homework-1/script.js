@@ -3,15 +3,20 @@ const turkish="Merhaba, Dunya";
 let english = "Hello, World";
 const dutch = "Hallo, Wereld"
 var romanian = "Salut, Lume";
-console.log(turkish);
-console.log(english);
-console.log(dutch);
-console.log(romanian);
+console.log(turkish);  // console.log('Merhaba, Dunya');
+console.log(english);  // console.log('Hello, World');
+console.log(dutch);    // console.log('Hallo, Wereld');
+console.log(romanian); // console.log('Salut, Lume');
 
 // 2.Consider the following code:console.log('I'm awesome');
 console.log("I'am awesome");
+console.log('I\'m awesome');
+console.log(`I'm awesome`);
 
 // 3.Declare a variable x and initialize it with an integer.
+var x;
+console.log('x is undefined');
+console.log(x);
 var x = 29;
 console.log('the value of my x will be : 29')
 
